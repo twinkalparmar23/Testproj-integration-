@@ -1,0 +1,11 @@
+C:\Users\twinkal\source\repos\AngularProjects\testproj\testproj\obj\Debug\netcoreapp2.0\testproj.csprojAssemblyReference.cache
+C:\Users\twinkal\source\repos\AngularProjects\testproj\testproj\obj\Debug\netcoreapp2.0\testproj.csproj.CoreCompileInputs.cache
+C:\Users\twinkal\source\repos\AngularProjects\testproj\testproj\obj\Debug\netcoreapp2.0\testproj.AssemblyInfoInputs.cache
+C:\Users\twinkal\source\repos\AngularProjects\testproj\testproj\obj\Debug\netcoreapp2.0\testproj.AssemblyInfo.cs
+C:\Users\twinkal\source\repos\AngularProjects\testproj\testproj\bin\Debug\netcoreapp2.0\testproj.deps.json
+C:\Users\twinkal\source\repos\AngularProjects\testproj\testproj\bin\Debug\netcoreapp2.0\testproj.runtimeconfig.json
+C:\Users\twinkal\source\repos\AngularProjects\testproj\testproj\bin\Debug\netcoreapp2.0\testproj.runtimeconfig.dev.json
+C:\Users\twinkal\source\repos\AngularProjects\testproj\testproj\bin\Debug\netcoreapp2.0\testproj.dll
+C:\Users\twinkal\source\repos\AngularProjects\testproj\testproj\bin\Debug\netcoreapp2.0\testproj.pdb
+C:\Users\twinkal\source\repos\AngularProjects\testproj\testproj\obj\Debug\netcoreapp2.0\testproj.dll
+C:\Users\twinkal\source\repos\AngularProjects\testproj\testproj\obj\Debug\netcoreapp2.0\testproj.pdb

@@ -1,0 +1,48 @@
+<h3 >
+ Edit Employee Data
+</h3>
+
+<form #form="ngForm" novalidate (ngSubmit)="onSubmit(form.value)">
+
+    <label for="firstname">First name:</label><br>
+		<input type="text" name="firstName" [(ngModel)]="model.firstName">
+		<br><br>
+		
+		<label for="lastname">Last name:</label><br>
+		<input type="text" name="lastName" [(ngModel)]="model.lastName">
+		<br><br>
+
+    <label for="adress">Address:</label><br>
+		<input type="text" name="adress" [(ngModel)]="model.adress">
+		<br><br>
+
+    <label for="contact">Contact:</label><br>
+		<input type="text" name="contact" [(ngModel)]="model.contact">
+		<br><br>
+
+    <label>Gender:</label><br>
+		<label><input type="radio" name="gender" value="male" [(ngModel)]="model.gender"/> Male<br></label>
+		<label><input type="radio" name="gender"  value="female"  [(ngModel)]="model.gender"/> Female<br></label>
+		<br>
+
+    <label>Qualification: </label><br>
+		<select name="qual" [(ngModel)]="model.qual">
+			<option *ngFor="let qualification of qualifications" >
+        {{qualification}}
+      </option>
+		</select>
+		<br><br>
+
+    <label>Experience: </label><br>
+		<select name="experience" [(ngModel)]="model.exp">
+			<option *ngFor="let exp of experience">
+        {{exp}}
+      </option>
+		</select>
+		<br><br>
+
+    <button type="submit"  class="btn btn-primary">Submit</button>
+    <button (click)="btnCancel($event)"  class="btn btn-primary" style="margin-left:10px;">Cancel</button>
+
+
+<form>

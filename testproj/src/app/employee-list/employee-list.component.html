@@ -1,0 +1,36 @@
+<h3 style="text-align:center;">
+  Employee-Data
+</h3>
+<!--<ul>
+  <li *ngFor="let value of empData">{{value}}</li>
+</ul>-->
+
+<br>
+<table class='table' >
+<thead>
+<tr>
+      <th> Firstname</th>
+      <th> Lastname</th>
+      <th> Address</th>
+      <th> Contact</th>
+      <th> Gender</th>
+      <th> Qualification</th>
+      <th> Experience</th>
+</tr>
+</thead>
+<br>
+      <tbody>
+        <tr *ngFor='let emp of empData'>
+          <td>{{ emp.firstName }}</td>
+          <td>{{ emp.lastName }}</td>
+          <td>{{ emp.adress }}</td>
+          <td>{{ emp.contact }}</td>
+          <td>{{ emp.gender }}</td>
+          <td style="text-align:center;">{{ emp.qual }}</td>
+          <td style="text-align:center;">{{ emp.exp }}</td>
+
+          <td><button (click)="editEmployee(emp.id)" class="btn btn-primary">Edit</button></td>
+          <td><button (click)="deleteEmployee(emp.id)" class="btn btn-danger">Delete</button></td>
+        </tr>
+      </tbody>
+</table>     
